@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Post</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/logingg.css">
+</head>
+
+<body>
+
+  <div class="mainDiv" align="right">
+    <h1 align="left">Post Your Message</h1>
+
+    <textarea id="mainText" placeholder="Enter your message .. "></textarea>
+
+    <button id="submitBtn" onclick="submitClick()">
+      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </button>
+  </div>
+
+
+
+  <div class="mainDiv">
+    <h2>
+      <i class="fa fa-heart">User</i>
+    </h2>
+    <h1 style="color:palevioletred" id="fireHeading"></h1>
+
+  </div>
+
+  <div class="mainDiv">
+    <h2>
+      <i class="fa fa-heart">Taojiew Waroot</i>
+    </h2>
+    <h1 style="color:palevioletred;" id="fireHeading2"></h1>
+
+  </div>
+  <div class="mainDiv">
+
+    <h2 >
+      <i class="fa fa-heart">Arun Inkong</i>
+    </h2>
+    <h1 style="color:palevioletred;" id="fireHeading3"></h1>
+
+  </div>
+  <div class="mainDiv">
+    <h2>
+      <i class="fa fa-heart">GG WP</i>
+    </h2>
+    <h1 style="color:palevioletred;" id="fireHeading4"></h1>
+
+  </div>
+
+
+
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAUKTJ3T69VXlVqca1FhLs3YUGp20w_DOw",
+      authDomain: "dbfirebase-9f058.firebaseapp.com",
+      databaseURL: "https://dbfirebase-9f058.firebaseio.com",
+      projectId: "dbfirebase-9f058",
+      storageBucket: "dbfirebase-9f058.appspot.com",
+      messagingSenderId: "1070799541484"
+    };
+    firebase.initializeApp(config);
+  </script>
+</body>
+<script src="logingg.js"></script>
+
+</html>

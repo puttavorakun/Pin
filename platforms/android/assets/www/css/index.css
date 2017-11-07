@@ -1,0 +1,50 @@
+#toolbar{
+    background-color: #ff3377;
+    width: auto;
+    height:auto;
+}
+#tool{
+    background-color: #ff80af;
+}
+#hello{
+    background-color:yellowgreen;
+    
+}
+#location{
+    background-color:yellowgreen;
+}
+
+#map{
+    background-color:yellow;
+
+}
+.camera-view {
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	background-color: #cacaca;
+	display: table;
+  }
+  .camera-icon {
+	vertical-align: middle !important;
+	font-size: 100px;
+	opacity: 0.4;
+	display: table-cell;
+  }
+
+  .camera-button {
+	width: 100%;
+	height: 40%;
+	text-align: center;
+	display: table;
+  }
+  .cam {
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	background-color:burlywood;
+	display: table;
+  }
+  .t1{
+	  text-align: center;
+  }
